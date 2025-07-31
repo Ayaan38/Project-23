@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 23</title>
+    </head>
+    <body>
+        <h2>Project 23</h2>
+        <p id="A"></p>
+        <p id="B"></p>
+        <p id="C"></p>
+        <script>
+            var cricketers = ["Kane Williamson", "Virat Kohli", "Rohit Sharma", "Babar Azam", "Joe Root",
+                              "Steve Smith", "David Warner", "Ben Stokes", "Jos Buttler", "Quinton de Kock",
+                              "Kagiso Rabada", "Jasprit Bumrah", "Mitchell Starc", "Trent Boult", "Pat Cummins","Dale Steyn",
+                              "Rassie van der Dussen", "Shreyas Iyer", "Hardik Pandya", "Mohammad Rizwan",
+                              "Shaheen Afridi", "Irfan Khan Niazi", "Shadab Khan", "Imad Wasim",
+                              "Mohammad Nabi", "Rashid Khan", "Shakib Al Hasan",];
+            document.getElementById("A").innerHTML = cricketers.join(" & ");
+            document.getElementById("B").innerHTML = cricketers;
+            cricketers.pop();
+            document.getElementById("C").innerHTML = cricketers;
+            </script>
+        
+    </body>
+</html>
